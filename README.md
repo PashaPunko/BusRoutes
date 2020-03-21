@@ -1,6 +1,6 @@
 # BusRoutes
 Give the requested information about buses, stops and optional routes. 
-To write requests, that create database and requests to get information u need use JSON format.
+To write requests, that create database and requests to get information u have to use JSON format.
 Download JSON parser here https://github.com/nlohmann/json.
 Examples of requests:
 
