@@ -5,7 +5,9 @@ Download JSON parser here https://github.com/nlohmann/json.
 Examples of requests:
 
 {
+
 "_comment": "settings for all buses and all stops",
+
 "routing_settings": {
 "bus_wait_time": 2,
 "bus_velocity": 30
@@ -14,6 +16,7 @@ Examples of requests:
 "base_requests": [
 
 "_comment": "new route request includes name of bus, stops on routes, type of route: roundtrip or not",
+
 {
 "type": "Bus",
 "name": "297",
@@ -63,6 +66,7 @@ Examples of requests:
 },
 
 "_comment": "Stop request includes stop's name, coordinates and distances to other stops",
+
 {
 "type": "Stop",
 "road_distances": {
@@ -167,6 +171,7 @@ Examples of requests:
 
 
 "_comment": "Information requests ask for curvature of route, route's length, stops count and unique stops count",
+
 {
 "type": "Bus",
 "name": "297",
@@ -193,8 +198,10 @@ Examples of requests:
 "to": "Apteka",
 "id": 5
 },
+
 "_comment": "Information requests ask for the most optional route bitween two stops, that consists of using buses and stops, 
 where we should wait for buses",
+
 {
 "type": "Route",
 "from": "Biryulyovo Zapadnoye",
@@ -261,7 +268,9 @@ where we should wait for buses",
 "to": "Rasskazovka",
 "id": 15
 },
+
 "_comment": "Information requests ask for buses, that visit this stop on theirs routes",
+
 {
 "type": "Stop",
 "name": "Prazhskaya",
